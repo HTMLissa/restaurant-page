@@ -130,11 +130,15 @@ table {
 
 /* Stylesheet */
 
+body {
+  font-family: "Ruda", sans-serif;
+}
+
 #content {
   display: grid;
   height: 100vh;
   grid-template-rows: 70px 1fr 30px;
-  background: url(./images/cheese-plate-background.jpg);
+  background: url(./cheese-plate-background.jpg);
   background-size: cover;
   background-position-x: center;
   background-position: center;
@@ -142,9 +146,35 @@ table {
 
 .header {
   background-color: #fc954ca2;
+  position: sticky;
 }
 
-.main {
+.nav {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.nav-ul {
+  display: flex;
+}
+
+.nav-ul li {
+  margin-left: 80px;
+}
+
+#header-logo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
 }
 
 .footer {
