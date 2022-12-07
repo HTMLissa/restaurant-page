@@ -135,7 +135,6 @@ body {
 }
 
 #content {
-  height: 100vh;
   background: url(./cheese-plate-background.jpg);
   background-size: cover;
   background-position-x: center;
@@ -210,4 +209,41 @@ h1 span {
   margin-left: 20px;
   font-size: 0.5rem;
   color: #1a2f17;
+}
+
+/* ABOUT US */
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-container {
+  width: 80%;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-us-article {
+  width: 70%;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 200px;
+}
+
+#about-us-span {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  text-transform: lowercase;
+  color: green;
+}
+
+/* MENU */
+
+#gouda-menu {
+  margin-top: 100px;
 }
