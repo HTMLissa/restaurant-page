@@ -14,7 +14,7 @@ export const createAboutUsPage = () => {
   const aboutUsArticle = document.createElement("p");
 
   aboutUsArticle.setAttribute("id", "about-us-article");
-  aboutUsArticle.innerHTML = `<span id="about-us-span">Our story begins in</span> rubber cheese bocconcini boursin. Swiss cheddar fondue cheese and wine cottage
+  aboutUsArticle.innerHTML = `<span id="about-us-span">Our story begins in</span> <br> rubber cheese bocconcini boursin. Swiss cheddar fondue cheese and wine cottage
   cheese who moved my cheese fromage stilton. Who moved my cheese
   mozzarella smelly cheese mascarpone pecorino jarlsberg caerphilly
   fromage frais. When the cheese comes out everybody's happy fromage

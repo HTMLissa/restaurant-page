@@ -4,6 +4,7 @@ import changeTab from "./switchTabs";
 import { createAboutUsPage } from "./aboutUs";
 import { createRestaurantMenu } from "./menu";
 import { createLocationPage } from "./locationPage";
+import { recommendCheese } from "./cheeseOfTheWeek";
 
 createLandingPage();
 
@@ -21,3 +22,7 @@ menuBtn.addEventListener("click", createRestaurantMenu);
 // add location section
 const locationBtn = document.querySelector(".location-btn");
 locationBtn.addEventListener("click", createLocationPage);
+
+// add cheese of the week section
+const recommendCheeseBtn = document.querySelector(".cheese-of-week-btn");
+recommendCheeseBtn.addEventListener("click", recommendCheese);

@@ -137,8 +137,6 @@ body {
 #content {
   background: url(./cheese-plate-background.jpg);
   background-size: cover;
-  background-position-x: center;
-  background-position: center;
 }
 
 .nav {
@@ -226,6 +224,7 @@ h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 #about-us-article {
@@ -237,16 +236,12 @@ h1 span {
 
 #about-us-span {
   font-family: "Dancing Script", cursive;
-  font-size: 3rem;
+  font-size: 3.3rem;
   text-transform: lowercase;
   color: green;
 }
 
 /* MENU */
-
-#gouda-menu {
-  margin-top: 100px;
-}
 
 /* LOCATION */
 #location-container {
@@ -257,11 +252,43 @@ h1 span {
 
 #location-container p:first-child {
   font-family: "Dancing Script", cursive;
-  font-size: 3rem;
+  font-size: 3.3rem;
   color: green;
 }
 
 #location-container p:nth-child(2) {
   text-transform: uppercase;
   text-align: center;
+  font-size: 1.5rem;
+}
+
+/* CHEESE OF THE WEEK */
+#cheese-recommendation-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#come-try {
+  margin-top: 100px;
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  color: rgba(252, 149, 76, 1);
+}
+
+#cheese-recommendation-container h2 {
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+#cheese-img {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#artist-info {
+  font-size: 0.3rem;
+  margin-top: 5px;
+  color: white;
 }
