@@ -247,3 +247,21 @@ h1 span {
 #gouda-menu {
   margin-top: 100px;
 }
+
+/* LOCATION */
+#location-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#location-container p:first-child {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: green;
+}
+
+#location-container p:nth-child(2) {
+  text-transform: uppercase;
+  text-align: center;
+}

@@ -79,6 +79,9 @@ export const createLandingPage = () => {
   liRightNav1.innerHTML = "location";
   liRightNav2.innerHTML = "cheese of the week";
 
+  liRightNav1.setAttribute("class", "location-btn");
+  liRightNav2.setAttribute("class", "cheese-of-week-btn");
+
   ulRightNav.appendChild(liRightNav1);
   ulRightNav.appendChild(liRightNav2);
 
