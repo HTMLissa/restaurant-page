@@ -2,10 +2,11 @@ import Menu from "./gouda-menu.svg";
 
 export const createRestaurantMenu = () => {
   // creating .main-content-container and appending to .main-section
-  const mainContentContainer = document.createElement("div");
-  const mainSection = document.querySelector(".main-section");
+  const mainSection = document.querySelector("main");
   mainSection.innerHTML = "";
+  mainSection.classList.add("main-section");
 
+  const mainContentContainer = document.createElement("div");
   mainContentContainer.setAttribute("class", "main-content-container");
 
   mainSection.appendChild(mainContentContainer);

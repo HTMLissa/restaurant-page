@@ -3,8 +3,9 @@ import Picture from "./camembert.jpg";
 export const recommendCheese = () => {
   // cteating #cheese-container and appending to .main-section
   const cheeseContainer = document.createElement("div");
-  const mainSection = document.querySelector(".main-section");
+  const mainSection = document.querySelector("main");
   mainSection.innerHTML = "";
+  mainSection.classList.add("main-section");
 
   cheeseContainer.setAttribute("class", "main-content-container");
   cheeseContainer.setAttribute("id", "cheese-recommendation-container");

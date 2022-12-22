@@ -1,8 +1,9 @@
 export const createLocationPage = () => {
   // create #location-container and append to .main-section
   const locationContainer = document.createElement("div");
-  const mainSection = document.querySelector(".main-section");
+  const mainSection = document.querySelector("main");
   mainSection.innerHTML = "";
+  mainSection.classList.add("main-section");
 
   locationContainer.setAttribute("class", "main-content-container");
   locationContainer.setAttribute("id", "location-container");
